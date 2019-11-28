@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu-container {
+  color: #fff;
+  background-color: #5995DA;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.menu {
+  border: 1px solid #fff;
+  width: 900px;
+  /*flex used to make menu same alignment with space*/
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around;
+}
+
+.links {
+  border: 1px solid #fff;
+  /* For debugging */
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: end;
+          justify-content: flex-end;
+}
+
+.login {
+  margin-left: 20px;
+}
+
